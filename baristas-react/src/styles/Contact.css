@@ -1,0 +1,137 @@
+.contact-page {
+	padding: 4rem 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	max-width: 60rem;
+}
+
+.escribinos {
+	width: 100%;
+	background: #ffffff;
+	padding: 25px;
+	border-radius: 8px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.escribinos fieldset {
+	display: flex;
+	flex-direction: column;
+	border: none;
+}
+
+.escribinos legend {
+	margin-bottom: 15px;
+	padding: 0;
+}
+
+.escribinos label {
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #333;
+	font-family: 'Poppins', sans-serif;
+}
+
+.escribinos input,
+.escribinos select,
+.escribinos textarea {
+	width: 100%;
+	min-width: 0;
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+	font-family: inherit;
+	color: #333;
+}
+
+.escribinos textarea {
+	resize: vertical;
+	height: 100px;
+}
+
+.escribinos .field-group-label {
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 8px;
+	font-size: 1.4rem;
+}
+
+.escribinos .radio-group {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	margin-bottom: 15px;
+}
+
+.escribinos .radio-option,
+.escribinos .checkbox-option {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+	font-weight: 400;
+	font-size: 1.4rem;
+	color: #333;
+	margin-bottom: 0;
+}
+
+.escribinos .checkbox-option {
+	margin-bottom: 15px;
+}
+
+.escribinos .radio-option input,
+.escribinos .checkbox-option input {
+	margin-bottom: 0;
+	width: auto;
+}
+
+.escribinos .form-actions {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.escribinos button {
+	flex: 1 1 auto;
+	background-color: #d2b495;
+	color: white;
+	padding: 12px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+	font-family: inherit;
+	font-size: 1.4rem;
+}
+
+.escribinos button:hover {
+	background-color: var(--primary-color);
+}
+
+.escribinos button[type='reset'] {
+	background-color: #777;
+}
+
+.escribinos button[type='reset']:hover {
+	background-color: var(--dark-color);
+}
+
+/* Estados de validación */
+.field-invalid {
+	border-color: #c0392b !important;
+	background-color: #fdf0ee;
+}
+
+.field-error-message {
+	color: #c0392b;
+	font-size: 1.2rem;
+	margin-top: -0.8rem;
+	margin-bottom: 1.2rem;
+	display: block;
+}
+
+.form-success {
+	color: #2e7d32;
+	font-weight: 600;
+	margin-top: 1rem;
+}
